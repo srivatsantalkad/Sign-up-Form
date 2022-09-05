@@ -11,9 +11,7 @@
 
 <body>
     <div class="main-container">
-        <div class="left-content">
-            <img src="nicolas-cool-GSQISzQlYtY-unsplash.jpg">
-        </div>
+        <img src="nicolas-cool-GSQISzQlYtY-unsplash.jpg">
         <div class="right-content">
             <div class="first-row">
                 <div class="header-wrapper">
@@ -24,7 +22,7 @@
                 </div>
             </div>
             <div class="second-row">
-                <form>
+                <form autocomplete="off">
                     <div>
                         <label for="first-name">FIRST NAME</label>
                         <input type="text" id="first-name" name="first-name" required>
@@ -40,7 +38,7 @@
                     </div>
                     <div> 
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" id="phone-number" name="phone-number" required>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
                     </div>
                     <div> 
                         <label for="password">PASSWORD</label>
